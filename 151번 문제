@@ -1,0 +1,13 @@
+<img src= "https://user-images.githubusercontent.com/90955623/173112262-735154f7-41a2-4a4f-90f6-b9c1147a3a87.png">
+폴더는 이런 식으로 구성되어 있으며, ServiceProfile 폴더에는 NTUSER.DAT.LOG가 있는 폴더가 2개, System32 폴더에는 SYSTEM.LOG가 있는 폴더가 하나 있다.
+
+![image](https://user-images.githubusercontent.com/90955623/173111752-917d230d-23b2-407a-8cc8-1571cbc3584d.png)
+NTUSER.DAT.LOG 폴더에서 찾은 IE 열어본 페이지 목록이며, 해당 링크는 MSN 페이지이며 별다른 특이사항은 보이지 않았다.
+
+![image](https://user-images.githubusercontent.com/90955623/173112898-ec1c4aa5-f1fe-43e0-b637-8f8004f2ff4f.png)
+자동 실행으로 등록된 서비스. Onedrive 설정과 관련된 서비스로 확인되며 악성 프로세스같아보이진 않는다.
+
+![image](https://user-images.githubusercontent.com/90955623/173113867-13a26584-1d65-4a67-9d76-4b0b280b2e62.png)
+SYSTEM.LOG에서 찾은 서비스들로, https://ko.nex-software.com/what-is-cxutilsvc-exe, https://ko.nex-software.com/what-is-cxaudmsg64-exe 검색 결과 멀웨어들이 Cxutilsvc.exe, 
+Cxaudmsg64.exe로 위장하는 케이스가 있다고 함.
+그러나 멀웨어인지, 정상 프로세스인지 확인할 방법을 못 찾았다...
